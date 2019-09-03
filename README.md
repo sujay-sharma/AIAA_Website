@@ -1,4 +1,4 @@
-#AIAA Website 
+# AIAA Website #
 This is the code written to create the website 
 for AIAA UT Dallas chapter
 This website was mostly created using HTML
