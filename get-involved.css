@@ -24,10 +24,11 @@ body{
     padding: 30px;
 }
 
+@media (min-width: 900px){
 .info{
     text-align: left;
-    padding: 50px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .info p{
@@ -37,4 +38,5 @@ body{
 
 .info img{
     flex: 1;
+}
 }

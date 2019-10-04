@@ -17,9 +17,36 @@ body{
     color: #f7870f;
     font-weight: 100;
     border-radius: 5px;
-
 }
 
 .team > h1{
     padding: 30px;
+}
+
+.officers > div{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.officers > div >img{
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.officers > div > span{
+    text-decoration: none;
+    color: black;
+    display: block;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.officers > div > span:hover{
+    color: #f7870f;
+}
+
+.readMore{
+    display: none; 
 }

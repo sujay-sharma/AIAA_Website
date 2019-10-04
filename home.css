@@ -79,6 +79,7 @@ body{
       height: 100vh;
   }
 
+  @media (min-width: 900px){
   .content{
       padding: 1rem;
       width: 100%;
@@ -95,6 +96,7 @@ body{
     width: 26%;
     height: auto;
   }
+}
 
 .info{
   align-items: center;
@@ -108,4 +110,5 @@ body{
 .info > p{
   color: #4b4d59;
 }
+  
 

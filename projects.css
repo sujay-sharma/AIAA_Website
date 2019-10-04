@@ -23,3 +23,26 @@ body{
 .projects > h1{
     padding: 30px;
 }
+@media (min-width: 900px){
+    .projectsList{
+        display: flex;
+        padding: 30px;
+        margin: 30px;
+        justify-content: space-between;
+    }
+    
+    .projectsList > img{
+        border-radius: 20px;
+        flex: 1;
+        order: 1;
+    }
+}
+
+.content{
+    flex-wrap: wrap;
+    flex: 2.5;
+    order: 2;
+    text-align: center;
+}
+
+
